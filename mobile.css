@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#navbar{
+    height: 200px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+    color: aliceblue;
+}
+

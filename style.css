@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+
+
+::-webkit-scrollbar {
+    width: 1px; 
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.btn{
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: rgb(29, 27, 27);
+    color: aliceblue;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: 0.1s;
+
+}
+
+.headline{
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+ /*--------------------------------------------------------------------------------*/   
+#navbar{
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+    color: aliceblue;
+    height:100px;
+}
+
+#navbar-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#navbar-items{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+#navbar-items li{
+    padding: 10px;
+}
+
+.logo{
+    font-size: 2rem;
+    margin-left: 25px;
+}
+
+
+ /*--------------------------------------------------------------------------------*/   
+/* Conteudo*/
+
+#text-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #030318;
+    background: url('img/w.jpg') no-repeat center center/cover;
+}
+  
+
+
+
+
+ /*--------------------------------------------------------------------------------*/   
+/*Fabricantes*/
+
+#fabricantes{
+    
+        width: 100%;
+        background: #eee;
+        color: #111;
+        padding: 50px;
+    }
+    
+    .main-companies {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        padding-left: 30px;
+        margin-top: 80px;
+    }
+    
+    .companies {
+        display: inline-block;
+        width: 60%;
+        
+    }
+
+ /*--------------------------------------------------------------------------------*/   
+    /* About */
+#aplication {
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+
+#container-aplication {
+    width: 100%;
+    margin:auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.title-aplication {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+ /*--------------------------------------------------------------------------------*/   
+/*Produto*/
+
+#product{
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#container-product{
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+}
+
+.about-product{
+    display: flex;
+    flex-direction: column;   
+    padding: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+ /*--------------------------------------------------------------------------------*/  
+ 
+ 
+ #tipos {
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+
+#container-tipos {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    margin-left: 20%;
+}
+
+.about-tipos {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/*--------------------------------------------------------------------------------*/  
+
+#contato{
+    width: 100%;
+    background-color: #eee;
+    color: white;
+}
+.formulario{
+    width: 350px;
+    height: 490px;
+    font-family: Arial;
+    margin-left: 40%;
+    border-radius: 50px;
+    background-color: #333;
+    align-items: center;
+    color: 333;
+    }
+  
+.div-externa{
+    align-items: center;
+    padding-left: 35px;
+}
+textarea{
+    resize: none;
+    width: 250px;
+    height: 200px;
+    font-family: Arial;
+    border-radius: 25px;
+}
+
+textarea:hover{
+    background-color: #c4bebe; /* quando passa o mouse em cima*/
+    transition: 0.3s;
+  }
+  
+  
+  
+  input{
+    border-radius: 25px;
+    width:150px;
+    border-color: none;
+  }
+  
+  input:hover{
+    background-color: #c4bebe;
+    transition: 0.3s;
+  }
+  
+  .div-interna{
+    padding: 7.5px;
+  }
