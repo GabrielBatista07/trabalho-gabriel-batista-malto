@@ -221,6 +221,7 @@ a{
     height: 600px;
     background-color: #eee;
     color: white;
+    background: url('img/w.jpg') no-repeat center center/cover;
 }
 
 #con{
