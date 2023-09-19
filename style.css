@@ -318,6 +318,9 @@ h5{
 
   @media screen and (max-width: 768px){ /*Só mudei o display grid para block, afim de empilhá-los*/
 
+       li{
+        font-size: 0.7rem;
+    }
 /*-----------------------------------------------------------------*/    
     #container-aplication {
         width: 100%;
