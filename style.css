@@ -59,6 +59,7 @@ a{
     background-color: rgb(19, 18, 18);
     color: aliceblue;
     height:100px;
+    position: fixed;
 }
 
 #navbar-container{
@@ -184,6 +185,19 @@ a{
     font-weight: bold;
 }
 
+#imagens{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 500px;  
+}
+
+#container-img{
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    
+}
 
  /*--------------------------------------------------------------------------------*/  
  
@@ -193,6 +207,7 @@ a{
     background: #222;
     color: #eee;
     padding: 50px;
+    height: 725px;
 }
 
 #container-tipos {
@@ -218,7 +233,7 @@ a{
 
 #contact{
     width: 100%;
-    height: 600px;
+    height: 725px;
     background-color: #eee;
     color: white;
     background: url('img/w.jpg') no-repeat center center/cover;
@@ -236,7 +251,7 @@ form{
     margin: auto;
     width: 300px;
     height: 450px;
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 #container-form{
@@ -278,11 +293,24 @@ label{
 
 .direitos{
     margin-bottom: 30px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.685);
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+}
+
+h5{
+    justify-content: center;
+    align-items: center;
 }
 
 
 
-
+#error{
+    margin-bottom: 0;
+}
 
 
 
@@ -297,6 +325,28 @@ label{
         display: block;
     }
 
+    #contact{
+        height:645px;
+    }
+
+    #imagens{
+        width: 100%;
+        background-color: antiquewhite;
+        height: 200px;  
+    }
+
+    #container-img{
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        
+    }
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+
     .tips {
         display: block;
         background: #333;
@@ -305,10 +355,18 @@ label{
     }
     
     .title-aplication {
-        font-size: 1.3rem;
+        font-size: 1.0rem;
         font-weight: bold;
     }
 
+
+.headline{
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
 
 /*-----------------------------------------------------------------*/
 
@@ -346,4 +404,11 @@ label{
     border-radius: 5px;
 }
 
+.direitos{
+    margin-left: 8%;
+}
+
+p{
+    font-size:0.7rem;
+}
   }
