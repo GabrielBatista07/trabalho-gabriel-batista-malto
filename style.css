@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 *{
     box-sizing: border-box;
@@ -14,7 +13,7 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: aliceblue;
+    background-color: lavenderblush;
 }
 
 
@@ -27,392 +26,105 @@ a{
     color: aliceblue;
     
 }
-.btn{
-    display: inline-block;
-    padding: 15px 60px;
-    font-size: 1.1rem;
-    text-transform: uppercase;
+
+/* Nav----------------------------*/
+
+.navbar{
+    margin:0px;
     background-color: rgb(29, 27, 27);
-    color: aliceblue;
-    border-radius: 8px;
-    transition: background-color 0.5s ease;
-}
-
-.btn:hover{
-    cursor: pointer;
-    background-color: black;
-    transition: 0.1s;
-
-}
-
-.headline{
-    text-transform: uppercase;
-    font-size: 2.2rem;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
- /*--------------------------------------------------------------------------------*/   
-#navbar{
     width: 100%;
-    background-color: rgb(19, 18, 18);
-    color: aliceblue;
-    height:100px;
+    height: 20%;
     position: fixed;
+   
 }
 
-#navbar-container{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+.nav{
+    margin-top: 1%;
+    margin-left: 5% ;
 }
 
-#navbar-items{
-    display: flex;
-    list-style: none;
-    text-transform: uppercase;
-    margin-left: 15px;
+.nav-item{
+    margin-left: 20px;
+    font-size: 20px;
 }
 
-#navbar-items li{
-    padding: 10px;
+.background{
+    background: url('img/pinguim.jpg') no-repeat center center/cover;
+    height: 95vh;
+    width: 100%;
 }
 
-.logo{
-    font-size: 2rem;
-    margin-left: 25px;
-}
+/* Main----------------------------*/
 
-
- /*--------------------------------------------------------------------------------*/   
-/* Conteudo*/
-
-#text-box {
+#main{
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #030318;
-    background: url('img/w.jpg') no-repeat center center/cover;
+    background-color: antiquewhite;
 }
-  
 
+.main-linux{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    background-color: #222;
+    border-radius: 25px;
+    width: 70%;
+    color: white;
+   
 
-
-
- /*--------------------------------------------------------------------------------*/   
-/*Fabricantes*/
-
-#fabricantes{
     
-        width: 100%;
-        background: #eee;
-        color: #111;
-        padding: 50px;
-    }
-    
-    .main-companies {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        justify-items: center;
-        padding-left: 30px;
-        margin-top: 80px;
-    }
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
     
-    .companies {
-        display: inline-block;
-        width: 60%;
-        
-    }
 
- /*--------------------------------------------------------------------------------*/   
-    /* About */
-#aplication {
-    width: 100%;
-    background: #222;
-    color: #eee;
-    padding: 50px;
 }
 
-#container-aplication {
-    width: 100%;
-    margin:auto;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
-}
-
-.tips {
-    display: flex;
-    flex-direction: column;
-    background: #333;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.title-aplication {
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
- /*--------------------------------------------------------------------------------*/   
-/*Produto*/
-
-#product{
-    width: 100%;
-    background-color: antiquewhite;
-}
-
-#container-product{
-    width: 100%;
-    margin-left: 30px;
-    margin-right: 15px;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 0px;
-}
-
-.about-product{
-    display: flex;
-    flex-direction: column;   
-    padding: 20px;
-    color: #333;
-    font-weight: bold;
-}
-
-#imagens{
-    width: 100%;
-    background-color: antiquewhite;
-    height: 500px;  
-}
-
-#container-img{
-    margin-left: 20%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    
+.box-linux{
+    margin: 25px;
 }
 
 
- /*--------------------------------------------------------------------------------*/  
- 
- 
- #tipos {
-    width: 100%;
-    background: #222;
-    color: #eee;
-    padding: 50px;
-    height: 725px;
-}
+.title{
 
-#container-tipos {
-    width: 100%;
-    margin: auto;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 50px;
-    margin-left: 20%;
-}
-
-.about-tipos {
-    display: flex;
-    flex-direction: column;
-    background: #333;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-
-/*--------------------------------------------------------------------------------*/  
-
-#contact{
-    width: 100%;
-    height: 725px;
-    background-color: #eee;
-    color: white;
-    background: url('img/w.jpg') no-repeat center center/cover;
-}
-
-#con{
-    color: #030318;
-}
-
-form{
-    display: block;
-    background-color: #333;
-    border: none;
-    border-radius: 40px;
-    margin: auto;
-    width: 300px;
-    height: 450px;
-    margin-top: 50px;
-}
-
-#container-form{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-input{
-    border-radius: 15px;
-    background-color: aliceblue;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-size: 40px;
     color: black;
-    border: none;
-    margin-top: 30px;
 }
-textarea{
-    resize: none;
-    border-radius: 15px;
-    border: none;
-    margin-top: 30px;
-    align-items: center;
-    justify-content: center;
-}
-label{
+
+
+
+
+#duvidas{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    background-color: #222;
+    border-radius: 25px;
+    width: 70%;
     color: white;
+   
+
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+    
+
 }
 
-#submit{
-    margin-left: 30%;
-    width: 80px;
-    border: none;
-    height: 30px;
+.box-linux{
+    margin: 25px;
 }
 
 
-
+.rep{
+    height: 100vh;
+    background-color: antiquewhite;
+}
 
 .direitos{
     margin-bottom: 30px;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.685);
-    color: black;
-    justify-content: center;
-    align-items: center;
-    margin-left: 38%;
-}
-
-h5{
-    justify-content: center;
-    align-items: center;
 }
 
 
-
-#error{
-    margin-bottom: 0;
-}
-
-
-
-
-  @media screen and (max-width: 768px){ /*Só mudei o display grid para block, afim de empilhá-los*/
-
-       li{
-        font-size: 0.7rem;
-    }
-/*-----------------------------------------------------------------*/    
-    #container-aplication {
-        width: 100%;
-        margin:auto;
-        margin-top: 20px;
-        display: block;
-    }
-
-    #contact{
-        height:645px;
-    }
-
-    #imagens{
-        width: 100%;
-        background-color: antiquewhite;
-        height: 200px;  
-    }
-
-    #container-img{
-        margin-left: 10%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 0px;
-        
-    }
-    .img{
-        width: 100px;
-        height: 100px;
-    }
-
-    .tips {
-        display: block;
-        background: #333;
-        padding: 20px;
-        border-radius: 5px;
-    }
-    
-    .title-aplication {
-        font-size: 1.0rem;
-        font-weight: bold;
-    }
-
-
-.headline{
-    text-transform: uppercase;
-    font-size: 1.0rem;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-/*-----------------------------------------------------------------*/
-
-
-    #container-product{
-        width: 100%;
-        margin-left: 20px;
-        margin-right: 15px;
-        margin-top: 10px;
-        display: block;
-    }
-    
-    .about-product{
-        display: block;
-        padding: 20px;
-        color: #333;
-        font-weight: bold;
-    }
-
-
-/*-----------------------------------------------------------------*/
-    
-#container-tipos {
-    width: 100%;
-    margin: auto;
-    margin-top: 20px;
-    display: block;
-    margin-left: 2%;
-}
-
-.about-tipos {
-    display: block;
-    background: #333;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.direitos{
-    margin-left: 8%;
-}
-
-p{
-    font-size:0.7rem;
-}
-  }
